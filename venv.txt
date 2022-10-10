@@ -1,0 +1,33 @@
+Initiate:
+python -m venv CSElec3
+
+Activate:
+.\CSElec3\scripts\Activate
+
+Update Pip:
+python -m pip install --upgrade pip
+
+Install ipykernel:
+python -m pip install ipykernel
+
+Access VENV:
+python -m ipykernel install --user --name=CSElec3
+
+Additional Libraries
+- tensorflow-gpu
+--- not installed yet ---
+- pandas
+- tinker
+
+To install, update, uninstall and show:
+python -m pip install dependencies
+python -m pip uninstall dependencies
+python -m pip install --upgrade dependencies
+python -m pip show dependencies
+
+Cleaning:
+python -m pip uninstall tensorflow
+python -m pip uninstall tensorflow-gpu
+python -m pip uninstall tf-nightly
+python -m pip uninstall tensorflow-nightly
+python -m pip uninstall tf-gpu
