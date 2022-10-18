@@ -10,18 +10,22 @@ python -m pip install --upgrade pip
 Install ipykernel:
 python -m pip install ipykernel
 
-Access VENV:
+Create Kernel of VENV:
 python -m ipykernel install --user --name=CSElec3
+
+Initialized Kernel:
+.\CSElec3\scripts\activate
 
 Additional Libraries
 - tensorflow-gpu
 - pandas
-- tinker
+- tkinter
+- pyqt5
 
 To install, update, uninstall and show:
 python -m pip install dependencies
-python -m pip uninstall dependencies
 python -m pip install --upgrade dependencies
+python -m pip uninstall dependencies
 python -m pip show dependencies
 
 Cleaning:
